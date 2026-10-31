@@ -1,0 +1,134 @@
+[
+  {
+    "id": "GRA-001",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain past simple versus present perfect. I am B1.",
+        "checks": [
+          "Accurate contrast with natural contextual examples",
+          "Accessible explanation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-002",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Correct this directly: She go to school yesterday.",
+        "checks": [
+          "Provides a correct past-tense sentence",
+          "Does not withhold correction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-003",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain the present passive briefly.",
+        "checks": [
+          "Accurate concise form and example"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-004",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Quiz me on conditionals without giving the answer.",
+        "checks": [
+          "Clear question with no answer disclosed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-005",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Is “I have lived here for five years” correct?",
+        "checks": [
+          "Accepts the natural sentence",
+          "Explains continuing relevance if useful"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-006",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Teach articles but give me no exercises.",
+        "checks": [
+          "Explains relevant usage without imposing exercises"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-007",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "Translate “Good morning” into Spanish.",
+        "checks": [
+          "Fulfills ordinary translation without forced grammar lesson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-008",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me a hint to fix “She go every day,” not the answer.",
+        "checks": [
+          "Gives a useful hint without revealing corrected sentence"
+        ]
+      },
+      {
+        "user": "I give up; tell me the answer.",
+        "checks": [
+          "Provides “She goes every day” or equivalent",
+          "Briefly explains agreement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-009",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain the difference between “She works here” and “She is working here this week.”",
+        "checks": [
+          "Explains habitual versus temporary or current meaning in context",
+          "Avoids an absolute rule"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GRA-010",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Why can “She must be tired” be a deduction?",
+        "checks": [
+          "Explains inference from evidence",
+          "Does not describe this example only as obligation"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "id": "VOC-001",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Teach me “resilient.” I am B1.",
+        "checks": [
+          "Explains relevant meaning accessibly with natural context",
+          "Offers suitable optional practice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-002",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "What is the difference between economic and economical?",
+        "checks": [
+          "Correctly contrasts economy-related and resource-saving senses",
+          "Gives context-sensitive examples"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-003",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Define reluctant quickly.",
+        "checks": [
+          "Accurate concise definition",
+          "No unsolicited lesson or quiz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-004",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Test me on despite without revealing the answer.",
+        "checks": [
+          "Asks a clear question",
+          "Withholds answer and answer-bearing hint"
+        ]
+      },
+      {
+        "user": "I give up. Tell me the answer.",
+        "checks": [
+          "Provides an answer to the original question",
+          "Explains relevant usage accurately"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-005",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Is “She is resilience” correct?",
+        "checks": [
+          "Identifies noun/adjective error",
+          "Offers resilient or equivalent accurate correction"
+        ]
+      },
+      {
+        "user": "Why is resilience wrong here?",
+        "checks": [
+          "Explains noun versus adjective in this construction",
+          "Avoids overstating a universal rule"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-006",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain get away with at C1 level.",
+        "checks": [
+          "Explains escaping consequences of wrongdoing in context",
+          "Shows natural usage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-007",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me five examples using subtle.",
+        "checks": [
+          "Exactly five natural contextual examples",
+          "Respects requested scope"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-008",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "What does bank mean in “We sat on the river bank”?",
+        "checks": [
+          "Selects river-edge sense",
+          "Does not lead with financial sense"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-009",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "I am A1. Teach me hungry.",
+        "checks": [
+          "Simple accessible meaning and example",
+          "Avoids overwhelming detail"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-010",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give natural collocations with take.",
+        "checks": [
+          "Natural varied collocations with clear context",
+          "Avoids unsupported exhaustive frequency claims"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-011",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "Translate this sentence into French: The train is late.",
+        "checks": [
+          "Fulfills ordinary translation",
+          "Does not impose a vocabulary lesson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-012",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "Rewrite my email to be more formal: Thanks, see you then.",
+        "checks": [
+          "Fulfills editing request",
+          "Does not impose vocabulary practice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-013",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Quiz me on the words I learned last month.",
+        "checks": [
+          "Requests words when unavailable",
+          "Does not invent history"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-014",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain literally versus figuratively; be brief.",
+        "checks": [
+          "Accurate distinction",
+          "Concise response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-015",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "What does set mean?",
+        "checks": [
+          "Acknowledges meaningful ambiguity",
+          "Asks for context or offers plausible senses without false certainty"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-016",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me three vocabulary questions about travel, all at once, without answers.",
+        "checks": [
+          "Three clear questions together",
+          "Withholds answers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-017",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Teach “reluctant” in Spanish, please.",
+        "checks": [
+          "Uses Spanish for explanation as requested",
+          "Conveys correct meaning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-018",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "I wrote “I made a decision.” Is it natural?",
+        "checks": [
+          "Recognizes natural collocation",
+          "Does not manufacture an error"
+        ]
+      },
+      {
+        "user": "Can I also say “take a decision”?",
+        "checks": [
+          "Recognizes take a decision as acceptable in some varieties or contexts",
+          "Does not label it universally wrong"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-019",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Quiz me on despite, one question at a time.",
+        "checks": [
+          "Asks one answer-withholding question"
+        ]
+      },
+      {
+        "user": "I do not know. Please give me a hint, not the answer.",
+        "checks": [
+          "Gives a useful non-answer-revealing hint",
+          "Does not give away the answer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-020",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Teach me resilient, but do not give me exercises.",
+        "checks": [
+          "Explains meaning",
+          "Does not impose an exercise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-021",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain borrow versus lend with examples.",
+        "checks": [
+          "Accurately contrasts the direction of borrowing and lending",
+          "Uses natural examples"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VOC-022",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me a hint, not the answer: Is “interested” or “interesting” correct in “I am ___ in history”?",
+        "checks": [
+          "Highlights the person’s feeling without naming the answer",
+          "Does not reveal the answer"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "language-learning-tools",
+  "version": "0.2.1",
+  "description": "Independent skills for learning and using English."
+}

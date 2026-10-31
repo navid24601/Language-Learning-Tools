@@ -1,0 +1,134 @@
+[
+  {
+    "id": "TRA-001",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate into English: “Bonjour, comment allez-vous ?”",
+        "checks": [
+          "Provides a faithful natural English translation",
+          "No unsolicited lesson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-002",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate “The train is late” into French, translation only.",
+        "checks": [
+          "Provides faithful French translation only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-003",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate “bank” into Spanish.",
+        "checks": [
+          "Requests context or explains meaningful ambiguity",
+          "Does not pretend one sense is certain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-004",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Explain two natural English translations of “Guten Morgen” and the difference.",
+        "checks": [
+          "Gives faithful alternatives and relevant difference or notes limited difference"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-005",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate “I may be late” into Spanish.",
+        "checks": [
+          "Preserves uncertainty rather than asserting lateness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-006",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me a French-to-English translation exercise; withhold the answer.",
+        "checks": [
+          "Provides contextual task without answer"
+        ]
+      },
+      {
+        "user": "I give up, tell me the answer.",
+        "checks": [
+          "Provides a faithful answer",
+          "Explains relevant choice if useful"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-007",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "What is the difference between economic and economical?",
+        "checks": [
+          "Addresses English vocabulary contrast rather than imposing translation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-008",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate this into English: “Je ne suis pas prêt.”",
+        "checks": [
+          "Preserves negation",
+          "Provides natural English"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-009",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate “She might not come” into French, preserving uncertainty.",
+        "checks": [
+          "Preserves possibility and negation",
+          "Does not present non-attendance as certain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TRA-010",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Translate “It is raining cats and dogs” into natural Spanish.",
+        "checks": [
+          "Conveys heavy rain naturally",
+          "Avoids treating the idiom as literal animals"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "id": "SPE-001",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Roleplay ordering coffee with me. I am A2.",
+        "checks": [
+          "Starts accessible interactive scenario",
+          "Waits for learner response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-002",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Let us have a conversation; correct me only at the end.",
+        "checks": [
+          "Begins conversation",
+          "Does not interrupt with unsolicited corrections"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-003",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Ask me three interview practice questions at once.",
+        "checks": [
+          "Provides three appropriate questions together"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-004",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Can you assess my pronunciation? Here is my typed sentence: “I like tea.”",
+        "checks": [
+          "Does not claim to hear or assess pronunciation from text",
+          "Offers appropriate alternative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-005",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Be a shop assistant. My reply is “I want buy shoe.” Please correct me now.",
+        "checks": [
+          "Provides useful correction",
+          "Maintains scenario or lets learner continue"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-006",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Practice a job interview in English.",
+        "checks": [
+          "Starts plausible roleplay with a natural question"
+        ]
+      },
+      {
+        "user": "I do not understand the question.",
+        "checks": [
+          "Rephrases or simplifies",
+          "Keeps the interaction accessible"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-007",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "Translate “good morning” into Spanish.",
+        "checks": [
+          "Fulfills translation without imposing conversation practice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-008",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give me useful phrases for politely asking someone to repeat themselves.",
+        "checks": [
+          "Provides usable communication strategies",
+          "Does not claim an audio channel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-009",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Teach me how to ask someone politely to repeat themselves.",
+        "checks": [
+          "Provides natural usable phrases",
+          "Does not claim audio was heard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPE-010",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Roleplay a colleague arranging a meeting; let me suggest another time.",
+        "checks": [
+          "Starts a relevant negotiation and waits",
+          "Does not supply the learner’s reply"
+        ]
+      }
+    ]
+  }
+]

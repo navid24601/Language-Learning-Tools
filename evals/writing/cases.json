@@ -1,0 +1,137 @@
+[
+  {
+    "id": "WRI-001",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Correct my email: “I look forward to hear from you.”",
+        "checks": [
+          "Provides corrected text using hearing",
+          "Preserves intent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-002",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Help me learn: hint at the problem in “She go to work” without correcting it.",
+        "checks": [
+          "Points toward agreement without giving full correction"
+        ]
+      },
+      {
+        "user": "Please give me the correction now.",
+        "checks": [
+          "Provides correct sentence",
+          "Explains issue briefly"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-003",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Proofread: “Thank you for your help.”",
+        "checks": [
+          "Recognizes sentence is correct",
+          "Does not fabricate an error"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-004",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Make this more formal without changing the meaning: “Thanks, see you then.”",
+        "checks": [
+          "Provides a suitable formal version",
+          "Preserves intended meaning"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-005",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Give feedback on one issue only: “I am agree and I very like it.”",
+        "checks": [
+          "Focuses on one issue",
+          "Gives accurate useful feedback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-006",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Rewrite my paragraph but do not change the facts: I arrived on Monday and stayed two days.",
+        "checks": [
+          "Preserves day and duration",
+          "Does not invent facts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-007",
+    "activation_expected": false,
+    "turns": [
+      {
+        "user": "Translate “good morning” into Spanish.",
+        "checks": [
+          "Fulfills translation without imposing writing feedback"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-008",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Help organize an argument about public transport, not grammar.",
+        "checks": [
+          "Addresses organization and argument",
+          "Does not impose line-editing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-009",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Make this formal without changing certainty: “I think the plan may work.”",
+        "checks": [
+          "Preserves the author’s uncertainty",
+          "Uses an appropriate formal register"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WRI-010",
+    "activation_expected": true,
+    "turns": [
+      {
+        "user": "Help me organize: “The buses are late. I like reading. More buses would help.”",
+        "checks": [
+          "Identifies the unclear connection without inventing facts",
+          "Offers a constructive revision strategy"
+        ]
+      }
+    ]
+  }
+]
